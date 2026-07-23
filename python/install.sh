@@ -59,7 +59,7 @@ else
 fi
 
 echo ""
-echo "✓ datarelay $(python3 -c 'import importlib.metadata; print(importlib.metadata.version(\"datarelay\"))')"
+echo "✓ datarelay $(python3 -c 'import importlib.metadata; print(importlib.metadata.version("datarelay"))')"
 echo ""
 echo "Ready. Usage:"
 echo ""
