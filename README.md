@@ -6,7 +6,7 @@ Client packages for [DataRelay](https://github.com/hsuk/datarelay).
 
 | Directory | Language | Install |
 |-----------|----------|---------|
-| `python/` | Python 3.10+ | `pip install "git+https://github.com/hsuk/datarelay-packages.git#subdirectory=python"` |
+| `python/` | Python 3.10+ | `pip install "git+https://github.com/datarelay-io/datarelay-packages.git#subdirectory=python"` |
 
 ---
 
@@ -15,7 +15,9 @@ Client packages for [DataRelay](https://github.com/hsuk/datarelay).
 ### Install
 
 ```bash
-pip install "git+https://github.com/hsuk/datarelay-packages.git#subdirectory=python"
+python3 -m venv .venv
+source .venv/bin/activate
+pip install "git+https://github.com/datarelay-io/datarelay-packages.git#subdirectory=python"
 ```
 
 ### Usage
